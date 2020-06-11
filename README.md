@@ -1,2 +1,4 @@
 # Computer_Science
-Theoretical knowledge in the field of computer science
+计算机网络
+操作系统
+数据结构
