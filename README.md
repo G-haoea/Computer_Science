@@ -6,6 +6,6 @@
 * 操作系统        
   [https://github.com/iii17-grace/Computer_Science/blob/master/操作系统.md](https://github.com/iii17-grace/Computer_Science/blob/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)         
 * 数据结构  
-  [https://github.com/iii17-grace/Computer_Science/blob/master/数据结构.md](https://github.com/iii17-grace/计算机科学技术/blob/master/数据结构.md)       
+  [https://github.com/iii17-grace/Computer_Science/blob/master/数据结构.md](https://github.com/iii17-grace/Computer_Science/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)       
   
 <br>
