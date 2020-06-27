@@ -235,14 +235,14 @@ PUT也可以用于修改资源，但是只能完全替代原始资源，PATCH允
     * **加密**（防窃听）；
     * **认证**（防伪装）；
     * **完整性保护**（防篡改）；
-![image7-1](media/15931707878520/image7-1.png)
+![image7-1](https://github.com/iii17-grace/Computer_Science/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/image/image7-1.png)
 
 ## 加密
 ### 对称密钥加密
 加密和解密使用同一密钥。
 * 优点：运算速度快；
 * 缺点：无法安全地将密钥传输给通信方；
-![image7-2](media/15931707878520/image7-2.png)
+![image7-2](https://github.com/iii17-grace/Computer_Science/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/image/image7-2.png)
 
 ### 非对称密钥加密/公开密钥加密
 加密和解密使用不同的密钥。
@@ -256,12 +256,12 @@ PUT也可以用于修改资源，但是只能完全替代原始资源，PATCH允
 ---
 * 优点：可以更安全的将公开密钥传输给通信发送方；
 * 缺点：运算速度慢；
-![image7-3](media/15931707878520/image7-3.png)
+![image7-3](https://github.com/iii17-grace/Computer_Science/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/image/image7-3.png)
 
 ### HTTPS采用的加密方式是混合的加密机制
 * 使用非对称密钥加密方式，传输对称密钥加密需要的Secret Key，从而保证安全性；
 * 获取到Secret Key之后，使用对称密钥加密方式进行通行，保证效率；
-![image7-4](media/15931707878520/image7-4.png)
+![image7-4](https://github.com/iii17-grace/Computer_Science/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/image/image7-4.png)
 
 ## 认证
 * 通过使用**证书**来对通信方进行认证；
@@ -276,7 +276,7 @@ PUT也可以用于修改资源，但是只能完全替代原始资源，PATCH允
 * 进行HTTPS通信时，服务器会把证书发送给客户端；
 * 客户端取得其中的公开密钥之后，先使用数字签名进行验证；
 * 如果验证通过，就可以开始通信了；
-![image7-5](media/15931707878520/image7-5.png)
+![image7-5](https://github.com/iii17-grace/Computer_Science/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/image/image7-5.png)
 
 ## 缺点
 * 需要加密解密，速度慢；
